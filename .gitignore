@@ -4,6 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
+
+#!!!!!!VISUAL STUDIO!!!!!!
 *.rsuser
 *.suo
 *.user
@@ -361,3 +363,25 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#!!!!!!VISUAL STUDIO!!!!!!
+
+
+#!!!!!!VSCODE!!!!!!
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+#!!!!!!VSCODE!!!!!!
+
+
