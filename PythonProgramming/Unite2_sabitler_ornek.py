@@ -1,0 +1,4 @@
+import PythonProgramming.Unite2_sabitler as Unite2_sabitler
+
+print(Unite2_sabitler.PI_SAYISI)
+print(Unite2_sabitler.YERCEKIMI_IVMESI)
