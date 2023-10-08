@@ -1,1 +1,146 @@
 ﻿<h2>Bilgi Dosyasına Geldi</h2>
+
+<h3>@DateTime.Now.ToString()</h3>
+
+<br />
+<br />
+
+<h3>Datetime.Now.ToString()</h3>
+
+
+@{
+var sayi1 = 100; 
+var sayi2 = 200;
+}
+<div>
+    @if (sayi1 > sayi2)
+    {
+        <p>Sayi1 Buyuk</p>
+    }
+    else
+    {
+        <p>Sayi2 Buyuk</p>
+    }
+</div>
+
+@{
+    //if-else
+var fiyat = 40;
+} <div>
+    @if (fiyat >= 100)
+    {
+        <h2>Fiyat Yuksek.</h2>
+    }
+    else if (fiyat > 30 & fiyat < 50)
+    {
+        <h2>Fiyat Normal</h2>
+    }
+    else
+    {
+        <h2>Fiyat dusuk.</h2>
+    }
+</div>
+
+@{
+    //switch
+string txt = ""; 
+int day = Convert.ToInt32( DateTime.Now.DayOfWeek); 
+switch (day)
+{
+case 1:
+txt = "Pazartesi";
+break;
+case 2:
+txt = "Sali"; 
+break;
+case 3:
+txt = "Carsamba"; 
+break;
+case 4:
+txt = "Persembe"; 
+break;
+case 5:
+txt = "Cuma"; 
+break;
+default:
+txt = "Tatil"; 
+break;
+}
+}
+<br />
+<h2><b>@txt</b></h2>
+
+<br />
+<br />
+<br />
+
+@{
+    //For dongusu
+string[] Ogrenciler = { "Semra", "Hasan", "Tuncay", "Mehmet" };
+}
+<ul>
+        @for (int i = 0; i < Ogrenciler.Length; i++)
+        {
+            <li>@Ogrenciler[i]</li>
+        }
+</ul>
+@for(int i = 0; i < Ogrenciler.Length; i++)
+{
+<p>@Ogrenciler[i]</p>
+} 
+
+<br />
+<br />
+<br />
+
+@{ //Foreach dongusu
+string[] Ogrenciler1 = { "Semra", "Hasan", "Tuncay", "Mehmet" };
+}
+@foreach (var ogr in Ogrenciler1)
+{
+<p>@ogr</p>
+}
+<ul>
+    @foreach (var ogr in Ogrenciler1)
+    {
+        <li>@ogr</li>
+    }
+</ul>
+
+<br />
+<br />
+<br />
+
+@{ //While dongusu
+string[] ogrenciler2 = { "Semra", "Hasan", "Tuncay", "Mehmet" }; 
+int ogr_isim= 8;
+}
+@while (ogr_isim < ogrenciler2.Length)
+{
+    @:
+    <p>@ogr_isim</p>
+    ogr_isim++;
+}
+<p>
+    <ul>
+        @while (ogr_isim < ogrenciler2.Length)
+        {
+            @:    
+        <li>@ogrenciler2[ogr_isim]</li>
+        ogr_isim++;    
+        }
+        </ul>
+    </p>
+
+<br />
+<br />
+<br />
+
+@{
+    /*C# Aciklama Satiri*/
+    //Tek satir C# Aciklama Satiri
+}
+    @*Razor Aciklama Satiri*@
+
+    <!--HTML Aciklama Satiri-->
+

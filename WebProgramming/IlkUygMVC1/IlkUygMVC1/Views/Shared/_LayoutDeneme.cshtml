@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - IlkUygMVC1</title>
+</head>
+<body>
+    <table border="1" style="width:1024px; height:768px;">
+        <tr>
+            <td colspan="2" style="text-align:center; height:100px;">
+                <h3>Header Bolumu</h3>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:150px">
+                <h3>Sol Menu</h3>
+            </td>
+            <td style="width:600px">
+                <div class="container">
+                    <main role="main" class="pb-3">
+                        @RenderBody()
+                    </main>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center; font-size:x-small;height:6@px;">
+                <h3>Footer Bolumu</h3>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
