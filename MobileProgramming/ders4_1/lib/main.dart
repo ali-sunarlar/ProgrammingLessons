@@ -128,8 +128,6 @@ class _ScaffoldExampleState extends State<ScaffoldExample> {
 
 
 
-import 'package:flutter/material.dart';
-
 void main() {
   runApp(
     const MaterialApp(
