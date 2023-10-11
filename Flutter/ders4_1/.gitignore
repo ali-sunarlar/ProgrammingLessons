@@ -16,6 +16,7 @@
 **/macos/
 **/linux/
 **/ios/
+**/build/
 
 # IntelliJ related
 *.iml
