@@ -6,4 +6,3 @@ for cevap in cevaplar:
         print("Soru",i," : cevaplanmamis")
         break
     print("Soru",i," : cevap",cevap)
-    
