@@ -36,12 +36,25 @@ namespace SessionCookieExample.Controllers
                     return View("Giris");
                 }
             }
+            ViewBag.msj = "Hatali Giris Gerceklestirdiniz!!";
             //if icerisine girmezse Index view'i görüntülenecek
             return View("Index");
         }
 
-        public IActionResult Privacy()
+        public IActionResult Icerik()
         {
+            if(HttpContext.Session.GetString("SessionUser")is null)
+            {
+                return View("Index");
+            }
+
+            return View();
+        }
+
+        public IActionResult Cikis()
+        {
+        HttpContext.Session.Clear();  //Veriler clear ediliyor
+
             return View();
         }
 

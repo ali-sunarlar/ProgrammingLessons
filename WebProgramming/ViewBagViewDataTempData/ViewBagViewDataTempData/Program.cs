@@ -3,22 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDistributedMemoryCache();
-
-builder.Services.AddSession(options =>
-{
-    options.Cookie.Name = ".AdventureWorks.Session";
-    options.IdleTimeout = TimeSpan.FromSeconds(10);
-    options.Cookie.IsEssential = true;
-});
-
-
-
-
 var app = builder.Build();
-// Add services to the container.
-ConfigurationManager configuration = builder.Configuration; // allows both to access and to set up the config
-IWebHostEnvironment environment = builder.Environment;
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -40,5 +25,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-
-app.UseSession();
