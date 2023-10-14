@@ -50,4 +50,29 @@ class MyApp extends StatelessWidget {
         ],
       );
   // #enddocregion Column
+
+/* Widget buildRow() =>
+      // #docregion Row
+      Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          Image.asset('images/pic1.jpg'),
+          Image.asset('images/pic2.jpg'),
+          Image.asset('images/pic3.jpg'),
+        ],
+      );
+  // #enddocregion Row
+
+  Widget buildColumn() =>
+      // #docregion Column
+      Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          Image.asset('images/pic1.jpg'),
+          Image.asset('images/pic2.jpg'),
+          Image.asset('images/pic3.jpg'),
+        ],
+      );
+  // #enddocregion Column */
+
 }
