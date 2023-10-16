@@ -1,4 +1,4 @@
-# lesson6
+# lesson6_self_managed
 
 A new Flutter project.
 

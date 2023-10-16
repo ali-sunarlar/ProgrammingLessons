@@ -3,31 +3,35 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
+// TapboxA manages its own state.
+//Kendi durumunu yoneten Arayuz Bileseni
 
-class TapboxA extends StatefulWidget {
-  const TapboxA({super.key});
+//------------------------- TapboxA ----------------------------------
+
+class TapboxA extends StatefulWidget { //Statefull'dan miras aliniyor
+  const TapboxA({super.key}); //basit bir yapilandirici fonksiyonu var
 
   @override
-  State<TapboxA> createState() => _TapboxAState();
+  State<TapboxA> createState() => _TapboxAState(); //TapboxA sinifinin bir ornegini olusturuyor
 }
 
-class _TapboxAState extends State<TapboxA> {
-  bool _active = false;
+class _TapboxAState extends State<TapboxA> { //TapboxA'nin durumlarini kontrol edilmesi için bir sinif olusturuluyor
+  bool _active = false; //butonun durumunu kontrol edilmesi boolen tipinde degisken olusturulor
 
   void _handleTap() {
-    setState(() {
-      _active = !_active;
+    setState(() { //Arayuz tekrardan olusturulmasi icin tanimlaniyor
+      _active = !_active; //True ise false false ise true'ya ceviren bir fonk
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return GestureDetector( //kullanici etkileşimini yakalamak icin
       onTap: _handleTap,
       child: Container(
         width: 200,
         height: 200,
-        decoration: BoxDecoration(
+        decoration: BoxDecoration( //Arka plan rengi
           color: _active ? Colors.lightGreen[700] : Colors.grey[600],
         ),
         child: Center(
