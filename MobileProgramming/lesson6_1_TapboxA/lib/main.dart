@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-// TapboxA manages its own state.
-
-//------------------------- TapboxA ----------------------------------
+void main() {
+  runApp(const MyApp());
+}
 
 class TapboxA extends StatefulWidget {
   const TapboxA({super.key});
