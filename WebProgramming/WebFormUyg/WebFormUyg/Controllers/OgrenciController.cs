@@ -34,6 +34,7 @@ namespace WebFormUyg.Controllers
             return txt;
         }
 
+        //Model binding(Model Baglama)
         [HttpPost] //Post ile gelmemişse Kaydet metodu'u çalışmayacaktır.
         public string Kaydet3(Ogrenci ogr)
         {
