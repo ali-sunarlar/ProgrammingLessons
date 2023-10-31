@@ -1,4 +1,4 @@
-void main(){
+/* void main(){
   selamVer2("Engin");
   selamVer2("Engin");
   selamVer2("Ayşe");
@@ -37,3 +37,4 @@ void test2({int sayi1, int sayi2, int sayi3}){
   print(sayi2);
   print(sayi3);
 }
+ */

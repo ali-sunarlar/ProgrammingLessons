@@ -1,4 +1,4 @@
-void main() {
+/* void main() {
 
    //Fixed length list
    var urunler = new List(5);
@@ -26,4 +26,4 @@ void main() {
 
 }
 
-//dart list functions
+//dart list functions */

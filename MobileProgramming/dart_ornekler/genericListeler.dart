@@ -1,4 +1,4 @@
-void main(){
+/* void main(){
 
   //type safety
   List<String> sehirler =new List<String>(3);
@@ -28,3 +28,4 @@ class Product{
   }
 }
 
+ */

@@ -1,4 +1,4 @@
-void main(){
+/* void main(){
 
     PersonelManager p = PersonelManager();
     
@@ -92,3 +92,4 @@ class Person{
     String lastName;
     String identityNumber;
 }
+ */

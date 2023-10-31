@@ -1,4 +1,4 @@
-void main(){
+/* void main(){
  var dictionary1 = new Map();
  dictionary1["book"]="kitap";
  dictionary1["little"]="küçük";
@@ -27,4 +27,4 @@ void main(){
  dictionary2.forEach((k,v)=>{
   print(k + " : " + v)
  });
-}
+} */
