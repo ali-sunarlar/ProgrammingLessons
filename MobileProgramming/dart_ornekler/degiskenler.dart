@@ -1,4 +1,4 @@
-void main() {
+/* void main() {
   
   //camelCase
   //PascalCase
@@ -10,8 +10,8 @@ void main() {
 
 
 	print(mesaj);
-  print("Doğum yılı : "+dogumYili.toString());
+  print("Doğum yili : "+dogumYili.toString());
   print("Oran : " + oran.toString());
 
 
-}
+} */

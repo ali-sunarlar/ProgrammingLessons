@@ -145,7 +145,7 @@ class TutorialHome extends StatelessWidget {
     // Scaffold is a layout forv
     // the major Material Components.
 
-    var ogrenciler=["Ali","Veli","Selami"];
+    // var ogrenciler=["Ali","Veli","Selami"];
     return Scaffold(
       appBar: AppBar(
         leading: const IconButton(
@@ -173,7 +173,7 @@ class TutorialHome extends StatelessWidget {
             
             //StaticListe
             child:ListView(
-              children: <Widget> [
+              children: const <Widget> [
                 Text("Ali",),
                 Text("Veli",),
                 Text("Selami",),

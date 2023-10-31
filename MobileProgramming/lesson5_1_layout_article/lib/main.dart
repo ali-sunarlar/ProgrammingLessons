@@ -64,6 +64,7 @@ class FlutterLayoutArticle extends StatefulWidget {
   const FlutterLayoutArticle(this.examples, {super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _FlutterLayoutArticleState createState() => _FlutterLayoutArticleState();
 }
 
@@ -191,6 +192,7 @@ class _FlutterLayoutArticleState extends State<FlutterLayoutArticle> {
 
 class Button extends StatelessWidget {
   @override
+  // ignore: overridden_fields
   final Key key;
   final bool isSelected;
   final int exampleNumber;
