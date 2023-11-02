@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h3 style="color:red;">@ViewBag.msj</h3>
+<form action="\Home\Login" method="post">
+    <table>
+        <tr>
+            <td>Kullanici Adi</td>
+            <td>:</td>
+            <td><input type="text" name="UserName"/> </td>
+        </tr>
+        <tr>
+            <td>Parola</td>
+            <td>:</td>
+            <td><input type="password" name="UserPass"/></td>
+        </tr>
+        <tr>
+            <td colspan="3"> <input type="submit" name="Gonder" /> </td>
+        </tr>
+
+    </table>
+
+</form>

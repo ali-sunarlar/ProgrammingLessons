@@ -1,0 +1,8 @@
+﻿@using Microsoft.AspNetCore.Http
+@{
+    var cokRenk = Context.Request.Cookies["UserColor"];
+}
+Icerik sadece login olan kullaniciya geldi.
+
+<h3>Session Verisi=@Context.Session.GetString("SessionUser")</h3>
+<h3 style="color:@cokRenk">Cookie Verisi=@cokRenk</h3>
