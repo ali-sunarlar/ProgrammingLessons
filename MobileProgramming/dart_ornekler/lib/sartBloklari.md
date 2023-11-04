@@ -1,4 +1,4 @@
-void main() {
+/* void main() {
   var sistemeGirmisMi = false;
 
   if(sistemeGirmisMi == true){
@@ -34,4 +34,4 @@ void main() {
   }
 
 
-}
+} */

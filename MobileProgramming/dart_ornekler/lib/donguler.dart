@@ -1,4 +1,4 @@
-void main(){
+/* void main(){
   for(var i = 1;i<=10;i=i+2){
     print(i);
   }
@@ -21,7 +21,7 @@ void main(){
 
   var sayi2 = 10;
   do{
-    print("Sayı 2 = " + sayi2.toString());
+    print("Sayi 2 = $sayi2");
     sayi2++;
   }while(sayi2>1000);
-}
+} */
