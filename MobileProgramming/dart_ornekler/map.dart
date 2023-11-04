@@ -24,7 +24,7 @@
 
  print(dictionary2.containsKey("kitap"));
 
- dictionary2.forEach((k,v)=>{
+ dictionary2.forEach((k,v)=>{ #key ve value yaz
   print(k + " : " + v)
  });
 } */

@@ -26,13 +26,13 @@ double hesapla(double krediTutari, double yuzde){
    return sonuc;
 }
 
-void test1(int sayi1, [int sayi2, int sayi3]){
+void test1(int sayi1, [int sayi2, int sayi3]){ //[] içine alınanlar değer tanımlanmamışsa default değer atanır(null)
   print(sayi1);
   print(sayi2);
   print(sayi3);
 }
 
-void test2({int sayi1, int sayi2, int sayi3}){
+void test2({int sayi1, int sayi2, int sayi3}){ //isimlendirilmiş parametre --> {} içine yazılanlar değer içine değer almazsa null doner parametreler sayi2:1 olarak cagrilir
   print(sayi1);
   print(sayi2);
   print(sayi3);
