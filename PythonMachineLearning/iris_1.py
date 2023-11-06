@@ -16,4 +16,5 @@ import warnings
 warnings.filterwarnings("ignore")                       #kod icinde kutuphane hatalarini gostermemesi icin
 
 df=pd.read_csv('iris_data.csv',delimiter=';')
-df
+df.info()
+
