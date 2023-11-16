@@ -10,7 +10,9 @@ Use the following command to create a commit:
 
 git commit index.html -m "Create an empty index.html file"
 
+Now, use a git log command to show information about the commit:
 
+git log
 
 
 
