@@ -12,3 +12,8 @@ git pull
 
 Then, make a pull request back to the original repo:
 git request-pull -p origin/main .
+
+git stash saves the state of the working tree and index by making a couple temporary commits. Think of the stash as a way to save your current work while you do something else, without making a "real" commit or affecting your repository history.
+
+git stash
+
