@@ -2,3 +2,15 @@ Use git add to add the new file to Git's index, followed by git status to check 
 
 git add .
 
+Finally, use git status again to make sure your changes were staged properly:
+
+git status
+
+Use the following command to create a commit:
+
+git commit index.html -m "Create an empty index.html file"
+
+
+
+
+
