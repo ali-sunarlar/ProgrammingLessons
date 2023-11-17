@@ -33,11 +33,40 @@ git stash pop
 
 commit atıldıktan sonra önceki commit'e geri dönülmesi
 
+git checkout
 
+git checkout 349dac7d0f45fe42014a7d3f4fc19be4a13a7c24
+
+sonradan geri dönülme için
+
+git switch master
 
 commit'e atılmadan geri dönülmesi için
 
 commit restore
+
+
+önceki commit'lere dönerken önceki commitleri siler ve değişiklikler kalır
+
+git reset 349dac7d0f45fe42014a7d3f4fc19be4a13a7c24
+
+
+önceki commitlere önceki commitleri siler ve değişiklikleri de siler
+
+git reset -hard 349dac7d0f45fe42014a7d3f4fc19be4a13a7c24
+
+
+önceki commitlere dönerken önceki commitlerin değişikleri geri alır
+
+git revert 349dac7d0f45fe42014a7d3f4fc19be4a13a7c24
+
+
+
+commitler arasındaki farklara bakmak için
+
+
+
+
 
 
 
