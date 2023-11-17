@@ -31,7 +31,13 @@ git stash clear
 git stash pop
 
 
+commit atıldıktan sonra önceki commit'e geri dönülmesi
 
+
+
+commit'e atılmadan geri dönülmesi için
+
+commit restore
 
 
 
