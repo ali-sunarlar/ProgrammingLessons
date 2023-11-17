@@ -64,6 +64,12 @@ git revert 349dac7d0f45fe42014a7d3f4fc19be4a13a7c24
 
 commitler arasındaki farklara bakmak için
 
+git diff
+
+
+git diff 349dac7d0f45fe42014a7d3f4fc19be4a13a7c24 77ce77d6328c9039a649a1d2b88e9dd0cc30e5d1
+
+
 
 
 
