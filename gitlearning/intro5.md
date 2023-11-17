@@ -18,6 +18,18 @@ git merge --ff-only add-style
 git push
 
 
+main brach'de çalışırken commit edilmeden yeni bir branch'e geçmeden once saklamak için kullanılır
+
+git stash
+
+git stash list
+
+git stash apply
+
+git stash clear
+
+git stash pop
+
 
 
 

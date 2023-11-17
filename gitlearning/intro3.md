@@ -31,3 +31,15 @@ You could recover index.html by using these two commands:
 
 git reset HEAD index.html
 git checkout -- index.html
+
+
+git branch 
+
+conflict durumu farklı branch'lerde değişiklik yapılmışsa 
+git merge testbranch2
+
+output
+Auto-merging gitlearning/index.html
+CONFLICT (content): Merge conflict in gitlearning/index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
