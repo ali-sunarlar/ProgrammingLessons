@@ -31,3 +31,7 @@ You could recover index.html by using these two commands:
 
 git reset HEAD index.html
 git checkout -- index.html
+
+
+git branch 
+
