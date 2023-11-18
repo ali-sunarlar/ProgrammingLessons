@@ -6,7 +6,7 @@ git remote
 
 git push origin feat
 
-değişiklikleri getir
+değişiklikleri getir local dosyaları değiştirir veya siler
 
 git fetch
 
@@ -24,3 +24,8 @@ değişiklikleri getir ve merge et
 
 git pull
 
+git pull origin main
+
+
+
+git clone 
