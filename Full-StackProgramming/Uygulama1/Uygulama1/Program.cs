@@ -133,7 +133,9 @@ namespace Uygulama1
 
             //notlar dizisinde 0-100 arasinda degerler girilsin. Girilen not 50'den buyuk ise basarili degilse basarisiz yazsin
 
-            int[] notlar = { 45, 80, 30, 58, 78, 15, 56 };
+
+
+            /*int[] notlar = { 45, 80, 30, 58, 78, 15, 56 };
 
             foreach (int i in notlar)
             {
@@ -143,14 +145,33 @@ namespace Uygulama1
                 }
                 else { Console.WriteLine(i+": Basarisizdir "); }}
             Console.ReadLine();
-            }
-        
-       
+            }*/
 
+
+
+            //Dizinin elemanlarinin disaridan alan ve boyutunu kullanicilarin belirledidi program
+
+            Console.WriteLine("Dizi Boyutunu Giriniz: ");
+            int elemansayisi = Convert.ToInt32(Console.ReadLine());
+
+            int[] yas = new int[elemansayisi];
+
+            for (int i = 0; i < yas.Length; i++)
+            {
+                Console.WriteLine(i+1+". Yasi Giriniz ");
+                yas[i]= Convert.ToInt32(Console.ReadLine());
+            }
+
+            for (int i = 0;i < yas.Length; i++)
+            {
+                Console.WriteLine("Degerler:    " + yas[i]);
+            }
+            Console.ReadLine();
 
 
 
 
         }
     }
+}
 
