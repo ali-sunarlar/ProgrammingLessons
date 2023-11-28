@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodlar1", "Metodlar1\Metodlar1.csproj", "{39F8A594-EDA0-4A77-A2C1-66EDBCB54588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodlar2", "..\Metodlar2\Metodlar2.csproj", "{309C32F8-DADD-4BE3-85EB-078D6094ABDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodlar3", "..\Metodlar3\Metodlar3.csproj", "{EB28AED8-E506-4CED-B6C1-A5CE98C32E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodlar4", "..\Metodlar4\Metodlar4.csproj", "{FCA80795-6E05-4329-AE8C-FE6A9F5CC95A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sevval_Ornek", "..\Sevval_Ornek\Sevval_Ornek.csproj", "{E07EC44C-9C54-439E-9863-76F33A4EDE28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodlar5_Overloading", "Metodlar5_Overloading\Metodlar5_Overloading.csproj", "{CE7C15A6-6862-4D69-8D29-A8C6C2240FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodlar6", "..\Metodlar6\Metodlar6.csproj", "{ACB8892D-1BED-4A02-A4B8-CEAB4C5AB18E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39F8A594-EDA0-4A77-A2C1-66EDBCB54588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F8A594-EDA0-4A77-A2C1-66EDBCB54588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F8A594-EDA0-4A77-A2C1-66EDBCB54588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F8A594-EDA0-4A77-A2C1-66EDBCB54588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309C32F8-DADD-4BE3-85EB-078D6094ABDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309C32F8-DADD-4BE3-85EB-078D6094ABDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309C32F8-DADD-4BE3-85EB-078D6094ABDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309C32F8-DADD-4BE3-85EB-078D6094ABDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB28AED8-E506-4CED-B6C1-A5CE98C32E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB28AED8-E506-4CED-B6C1-A5CE98C32E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB28AED8-E506-4CED-B6C1-A5CE98C32E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB28AED8-E506-4CED-B6C1-A5CE98C32E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA80795-6E05-4329-AE8C-FE6A9F5CC95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA80795-6E05-4329-AE8C-FE6A9F5CC95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA80795-6E05-4329-AE8C-FE6A9F5CC95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA80795-6E05-4329-AE8C-FE6A9F5CC95A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07EC44C-9C54-439E-9863-76F33A4EDE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07EC44C-9C54-439E-9863-76F33A4EDE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07EC44C-9C54-439E-9863-76F33A4EDE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07EC44C-9C54-439E-9863-76F33A4EDE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7C15A6-6862-4D69-8D29-A8C6C2240FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7C15A6-6862-4D69-8D29-A8C6C2240FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7C15A6-6862-4D69-8D29-A8C6C2240FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7C15A6-6862-4D69-8D29-A8C6C2240FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB8892D-1BED-4A02-A4B8-CEAB4C5AB18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB8892D-1BED-4A02-A4B8-CEAB4C5AB18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB8892D-1BED-4A02-A4B8-CEAB4C5AB18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB8892D-1BED-4A02-A4B8-CEAB4C5AB18E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B6E05BB-AEE4-4BB4-97B2-15AA77CF0B5B}
+	EndGlobalSection
+EndGlobal
