@@ -1,0 +1,34 @@
+﻿@model Ogrenci
+<form asp-action="OgrKaydet" asp-controller="Ogrenci">
+    <table>
+        <tr>
+            <td><label asp-for="OgrAd"></label></td>
+            <td>:</td>
+            <td><input asp-for="OgrAd" /></td>
+        </tr>
+        <tr>
+            <td><label asp-for="OgrSoyad"></label></td>
+            <td>:</td>
+            <td><input asp-for="OgrSoyad"/></td>
+        </tr>
+        <tr>
+            <td><label asp-for="OgrNo"></label></td>
+            <td>:</td>
+            <td><input asp-for="OgrNo" /></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Sehirler"></label></td>
+            <td>:</td>
+            <td><select class="form-control"- asp-for="Sehirler" asp-items="ViewBag.SehirKod"></select></td>
+        </tr>
+        <tr>
+            <td><label asp-for="DogumTarihi"></label></td>
+            <td>:</td>
+            <td><input asp-for="DogumTarihi"/></td>
+        </tr>
+
+        <tr>
+            <td colspan="3" <input type="submit" value="Ekle" class="btn btn-primary" /></td>
+        </tr>
+    </table>
+</form>
