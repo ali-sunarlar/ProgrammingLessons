@@ -1,0 +1,9 @@
+ekmek;sut;cerez;salca;peynir
+bebekbezi;ekmek;yumurta;peynir
+kola;sut;bebekbezi;ekmek
+bebekbezi;sut;kola;cerez
+sut;cerez;ekmek;bebekbezi
+ekmek;bebekbezi;sut;yumurta
+ekmek;sut;yumurta;seker;kola
+kola;ekmek;bebekbezi;salca
+su;islakmendil;deterjan;supurge
