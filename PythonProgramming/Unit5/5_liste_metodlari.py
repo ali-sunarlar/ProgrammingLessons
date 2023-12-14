@@ -10,7 +10,7 @@ remove() Belirtilen bir öğeyi listeden kaldirir
 reverse() Tüm listenin sirasini tersine çevirir 
 sort() Tüm öğeleri artan düzende siralar"""
 
-meyveler = ["Elma", "Armut", "Muz", "Kiraz", "Elma’", "Karpuz"] 
+meyveler = ["Elma", "Armut", "Muz", "Kiraz", "Elma", "Karpuz"] 
 
 print("Orjinal Liste:",meyveler)
 
