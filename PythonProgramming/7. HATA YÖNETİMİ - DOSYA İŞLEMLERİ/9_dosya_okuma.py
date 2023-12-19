@@ -1,0 +1,15 @@
+#tum dosyayi okuyarak ekrana bastirma
+dosya = open("test.txt", 'r', encoding = 'utf-8') 
+yazi = dosya.read() 
+dosya.close() 
+print (type(yazi)) 
+print(yazi) 
+dosya = open("test2.txt", 'r', encoding = 'utf-8') 
+ilk_satir = dosya.readline() 
+dosya.close() 
+print(type(ilk_satir)) 
+print(ilk_satir) #Textl dosyasinin satirlarini okutma 
+dosya = open( "test1.txt", 'r', encoding = 'utf-8') 
+satirlar = dosya.readline() 
+dosya.close() 
+print(type(satirlar)) 
